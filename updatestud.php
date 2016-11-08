@@ -184,7 +184,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>สำเร็จ!</h2>	
         <p>ปรับสถานะเรียบร้อย</p>
-       <font size="5" ><b>    <a href="managedatastud.php" data-role="button">เสร็จสิ้น</a>	</b></font>
+       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-role="button">เสร็จสิ้น</a>	</b></font>
         
       
         </div>
@@ -192,7 +192,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>ฐาน 1 มี ปัญหา</h2>	
         <p>ผิดพลาด</p>
-       <font size="5" ><b>    <a href="managedatastud.php" data-role="button">ลองใหม่</a>	</b></font>
+       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-role="button">ลองใหม่</a>	</b></font>
         
       
         </div>
@@ -200,7 +200,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>ฐาน 2 มี ปัญหา</h2>	
         <p>ผิดพลาด</p>
-       <font size="5" ><b>    <a href="managedatastud.php" data-role="button">ลองใหม่</a>	</b></font>
+       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-role="button">ลองใหม่</a>	</b></font>
         
       
         </div>
@@ -208,7 +208,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align:center">
         <h2>ผิดพลาด</h2>
         <p style="color:#F00">เกิดข้อผิดพลาด</p>
-        <p style="color:#F00">&nbsp;<a href="managedatastud.php" data-role="button" data-icon="back">ลองใหม่</a></p>
+        <p style="color:#F00">&nbsp;<a href="http://112.121.150.67/mntchproject/managedatastud.php" data-role="button" data-icon="back">ลองใหม่</a></p>
         </div>
         <? }?>
 	</div>

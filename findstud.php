@@ -20,7 +20,7 @@ mysql_query("SET NAMES utf8", $objConnect);
 
 <div data-role="page" data-theme="c" id="pageSstudentFcut">
 	<div data-role="header" data-theme="a">
-    <a href="managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+    <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="2" >Student Choose</font></h1>
 	</div>
 
@@ -59,7 +59,7 @@ while($objResult = mysql_fetch_array($objQuery)) {
     <p>ชื่อ-สกุลผู้ปกครอง : <? echo $objResult["parent_fname"]?> <? echo $objResult["parent_lname"]?></p>
     <p>เบอร์โทร : <? echo $objResult["parent_tel"]?></p></font>
   </a> <span class="ui-li-count"><? echo $objResult["level_name"]?></span>
-  <a href="settingstud.php?sid=<?=$objResult["stud_id"];?>">รายละเอียด</a></li>
+  <a href="http://112.121.150.67/mntchproject/settingstud.php?sid=<?=$objResult["stud_id"];?>">รายละเอียด</a></li>
   
 <?
 }
@@ -70,7 +70,7 @@ while($objResult = mysql_fetch_array($objQuery)) {
 		<div data-role="navbar">
           <ul>
           
-             <li><a href="managedatastud.php"><font size="3">Back</font></a></li>
+             <li><a href="http://112.121.150.67/mntchproject/managedatastud.php"><font size="3">Back</font></a></li>
                 
            
           </ul>

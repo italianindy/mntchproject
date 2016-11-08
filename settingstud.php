@@ -47,7 +47,7 @@ $objResult2 = mysql_fetch_array($objQuery2);
 
 <div data-role="page" id="pagRecstudentcome">
 	<div data-role="header">
-     <a href="findstud.php?rlid=<?=$objResult2["nrow"];?>" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+     <a href="http://112.121.150.67/mntchproject/findstud.php?rlid=<?=$objResult2["nrow"];?>" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="3">Manage Data</font></h1>
 	</div>
 	<div data-role="content">	
@@ -101,9 +101,8 @@ $objResult2 = mysql_fetch_array($objQuery2);
             <input name="txtcode" type="text" id="txtcode" value="<? echo $objResult["stud_code"];?>" maxlength="5"  />
             <label for="lblgenderp">เพศผู้ปกครอง :</label>
             <input name="txtgenderp" type="text" id="txtgenderp" value="<? echo $objResult["parent_gender"];?>" maxlength="10"  />
-             <label for="lblprefixp">คำ
-               <input name="txtprefixp" type="text" id="txtprefixp" value="<? echo $objResult["parent_prefix"];?>" maxlength="10"  />
-             นำหน้าผู้ปกครอง :</label>
+             <label for="lblprefixp">คำนำหน้าผู้ปกครอง :</label>
+            <input name="txtprefixp" type="text" id="txtprefixp" value="<? echo $objResult["parent_prefix"];?>" maxlength="10"  />
            <label for="lblfnamep">ชื่อผู้ปกครอง :</label>
             <input name="txtfnamep" type="text" id="txtfnamep" value="<? echo $objResult["parent_fname"];?>" maxlength="50"  />
               <label for="lbllnamep">นามสกุลผู้ปกครอง :</label>
@@ -133,7 +132,7 @@ $objResult2 = mysql_fetch_array($objQuery2);
 	<div data-role="footer"  data-position="fixed">
 		<div data-role="navbar">
           <ul>
-            <li><a href="findstud.php?rlid=<?=$objResult2["nrow"];?>"><font size="3">Back</font></a></li>
+            <li><a href="http://112.121.150.67/mntchproject/findstud.php?rlid=<?=$objResult2["nrow"];?>"><font size="3">Back</font></a></li>
         
            
           </ul>

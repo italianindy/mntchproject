@@ -18,7 +18,7 @@
 
 <div data-role="page" id="pagRecstudentcome">
 	<div data-role="header">
-     <a href="managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+     <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="3">Manage Data</font></h1>
 	</div>
 	<div data-role="content">	
@@ -63,7 +63,7 @@
 	<div data-role="footer"  data-position="fixed">
 		<div data-role="navbar">
           <ul>
-            <li><a href="managedatastud.php"><font size="3">Back</font></a></li>
+            <li><a href="http://112.121.150.67/mntchproject/managedatastud.php"><font size="3">Back</font></a></li>
         
            
           </ul>
