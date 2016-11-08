@@ -20,7 +20,7 @@ mysql_query("SET NAMES utf8", $objConnect);
 
 <div data-role="page" data-theme="c" id="pageMadmin">
 	<div data-role="header" data-theme="a">
-    <a href="http://112.121.150.67/mntchproject/menuadmin.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+    <a href="menuadmin.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="2" >Level Choose</font></h1>
 	</div>
 
@@ -51,7 +51,7 @@ while($objResult = mysql_fetch_array($objQuery)) {
 
   <li><a href="#">
     <h3><font size="3" >มัธยมศึกษาปีที่ <? echo $objResult["nrow"]?></font></h3>
-  </a><a href="http://112.121.150.67/mntchproject/findstud.php?rlid=<?=$objResult["nrow"];?>">รายละเอียด</a></li>
+  </a><a href="findstud.php?rlid=<?=$objResult["nrow"];?>">รายละเอียด</a></li>
 <?
 }
 ?> 
@@ -62,8 +62,8 @@ while($objResult = mysql_fetch_array($objQuery)) {
 		<div data-role="navbar">
           <ul>
           
-             <li><a href="http://112.121.150.67/mntchproject/menuadmin.php"><font size="3">Back</font></a></li>
-               <li><a href="http://112.121.150.67/mntchproject/insertstud.php"><font size="3">Insert</font></a></li>
+             <li><a href="menuadmin.php"><font size="3">Back</font></a></li>
+               <li><a href="insertstud.php"><font size="3">Insert</font></a></li>
           </ul>
         </div>
   </div>

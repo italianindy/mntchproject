@@ -20,7 +20,7 @@
        <font size="4"> <ul data-inset="true" data-role="listview" data-theme="a">
 		 
 			
-         <li><a href="http://112.121.150.67/mntchproject/menuadmin.php" >LOGIN</a></li>
+         <li><a href="menuadmin.php" >LOGIN</a></li>
 		</ul></font>	
         
       

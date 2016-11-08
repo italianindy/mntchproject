@@ -14,7 +14,7 @@
 
 <div data-role="page" data-theme="c" id="pageMadmin">
 	<div data-role="header" data-theme="a">
-    <a href="http://112.121.150.67/mntchproject/managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+    <a href="managedatastud.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="2" >TABLE RECORD</font></h1>
 	</div>
 
@@ -24,8 +24,8 @@
     <div align="center">
       <img src="pic/table.png" width="250" height="80"> 			</div>
 
-        <font size="2" color="#990000"><a href="http://112.121.150.67/mntchproject/rec_stud.php" data-icon="grid" data-role="button" data-theme="a">TB Student</a></font>
-        <font size="2" color="#990000"><a href="http://112.121.150.67/mntchproject/rec_parent.php" data-icon="grid" data-role="button" data-theme="a">TB Parent</a></font>
+        <font size="2" color="#990000"><a href="rec_stud.php" data-icon="grid" data-role="button" data-theme="a">TB Student</a></font>
+        <font size="2" color="#990000"><a href="rec_parent.php" data-icon="grid" data-role="button" data-theme="a">TB Parent</a></font>
         
        
        
@@ -35,7 +35,7 @@
 		<div data-role="navbar">
           <ul>
           
-             <li><a href="http://112.121.150.67/mntchproject/managedatastud.php"><font size="3">Back</font></a></li>
+             <li><a href="managedatastud.php"><font size="3">Back</font></a></li>
           </ul>
         </div>
   </div>

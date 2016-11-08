@@ -156,7 +156,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>Complete</h2>	
         <p>Thank you</p>
-       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/rec_stud.php" data-role="button">Finish</a>	</b></font>
+       <font size="5" ><b>    <a href="rec_stud.php" data-role="button">Finish</a>	</b></font>
         
       
         </div>
@@ -164,7 +164,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>Database A Disconnect</h2>	
         <p>FAILED</p>
-       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/rec_stud.php" data-role="button">Try Again</a>	</b></font>
+       <font size="5" ><b>    <a href="rec_stud.php" data-role="button">Try Again</a>	</b></font>
         
       
         </div>
@@ -172,7 +172,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align: center">
         <h2>Database B Disconnect</h2>	
         <p>FAILED</p>
-       <font size="5" ><b>    <a href="http://112.121.150.67/mntchproject/rec_stud.php" data-role="button">Try Again</a>	</b></font>
+       <font size="5" ><b>    <a href="rec_stud.php" data-role="button">Try Again</a>	</b></font>
         
       
         </div>
@@ -180,7 +180,7 @@ $obj2Result = mysql_fetch_array($obj2Query);
         <div style="text-align:center">
         <h2>FAILED</h2>
         <p style="color:#F00">Not Insert</p>
-        <p style="color:#F00">&nbsp;<a href="http://112.121.150.67/mntchproject/rec_stud.php" data-role="button" data-icon="back">Try Again</a></p>
+        <p style="color:#F00">&nbsp;<a href="rec_stud.php" data-role="button" data-icon="back">Try Again</a></p>
         </div>
         <? }?>
 	</div>

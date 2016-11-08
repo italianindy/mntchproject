@@ -14,7 +14,7 @@
 
 <div data-role="page" data-theme="c" id="pageMadmin">
 	<div data-role="header" data-theme="a">
-    <a href="http://112.121.150.67/mntchproject/mainmenu.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
+    <a href="mainmenu.php" data-icon="back" data-iconpos="notext" data-direction="reverse" >Back</a>
 		<h1><font size="2" >MENU DATA</font></h1>
 	</div>
 
@@ -24,7 +24,7 @@
     <div align="center">
       <img src="pic/menu.png" width="250" height="80"> 			</div>
 
-        <font size="2" color="#990000"><a href="http://112.121.150.67/mntchproject/listdata.php" data-icon="grid" data-role="button" data-theme="a">MANAGEDATATTS</a></font>
+        <font size="2" color="#990000"><a href="listdata.php" data-icon="grid" data-role="button" data-theme="a">MANAGEDATATTS</a></font>
         <font size="2" color="#990000"><a href="#" data-icon="grid" data-role="button" data-theme="a">MANAGEDATATTE</a></font>
        
        
@@ -33,7 +33,7 @@
     <div data-role="footer" data-theme="a" data-position="fixed">
 		<div data-role="navbar">
           <ul>
-           <li><a href="http://112.121.150.67/mntchproject/mainmenu.php"><font size="3">Sign out</font></a></li>
+           <li><a href="mainmenu.php"><font size="3">Sign out</font></a></li>
              
           </ul>
         </div>
